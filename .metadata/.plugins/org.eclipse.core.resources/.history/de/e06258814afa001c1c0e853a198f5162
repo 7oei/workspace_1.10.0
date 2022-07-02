@@ -28,8 +28,8 @@ void dir_r_cb(const std_msgs::Bool& msg);
 
 ros::Subscriber<std_msgs::UInt8> pwm_l_sub("pwm_l", &pwm_l_cb);
 ros::Subscriber<std_msgs::UInt8> pwm_r_sub("pwm_r", &pwm_r_cb);
-ros::Subscriber<std_msgs::Bool> dir_l_sub("dir_l", &dir_l_cb);
-ros::Subscriber<std_msgs::Bool> dir_r_sub("dir_r", &dir_r_cb);
+ros::Subscriber<std_msgs::Bool> dir_l_cb("dir_l", &dir_l_cb);
+ros::Subscriber<std_msgs::Bool> dir_r_cb("dir_r", &dir_r_cb);
 
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
   nh.getHardware()->flush();
@@ -44,8 +44,8 @@ void setup(void)
   nh.initNode();
   nh.subscribe(pwm_l_sub);
   nh.subscribe(pwm_r_sub);
-  nh.subscribe(dir_l_sub);
-  nh.subscribe(dir_r_sub);
+  nh.subscribe(led2_sub);
+  nh.subscribe(led3_sub);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
 }
@@ -60,23 +60,21 @@ void loop(void)
 }
 
 void pwm_l_cb(const std_msgs::UInt8& msg){
-	unsigned char pwm_l = msg.data;
-	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, pwm_l);
+	unsigned char duty1 = msg.data;
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, duty1);
 }
 
 void pwm_r_cb(const std_msgs::UInt8& msg){
-	unsigned char pwm_r = msg.data;
-	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, pwm_r);
+	unsigned char duty2 = msg.data;
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, duty2);
 }
 
-void dir_l_cb(const std_msgs::Bool& msg){
-	bool dir_l = msg.data;
-	if(dir_l) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+void led2_cb(const std_msgs::UInt8& msg){
+	unsigned char duty3 = msg.data;
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 }
 
-void dir_r_cb(const std_msgs::Bool& msg){
-	bool dir_r = msg.data;
-	if(dir_r) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+void led3_cb(const std_msgs::UInt8& msg){
+	unsigned char duty4 = msg.data;
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
 }

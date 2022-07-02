@@ -34,7 +34,8 @@ Core/Src/mainpp.o: ../Core/Src/mainpp.cpp \
  ../Core/Inc/rosserial_msgs/RequestParam.h ../Core/Inc/ros/publisher.h \
  ../Core/Inc/ros/node_handle.h ../Core/Inc/ros/subscriber.h \
  ../Core/Inc/ros/service_server.h ../Core/Inc/ros/service_client.h \
- ../Core/Inc/STM32Hardware.h ../Core/Inc/std_msgs/UInt8.h
+ ../Core/Inc/STM32Hardware.h ../Core/Inc/std_msgs/UInt8.h \
+ ../Core/Inc/std_msgs/Bool.h
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -80,3 +81,4 @@ Core/Src/mainpp.o: ../Core/Src/mainpp.cpp \
 ../Core/Inc/ros/service_client.h:
 ../Core/Inc/STM32Hardware.h:
 ../Core/Inc/std_msgs/UInt8.h:
+../Core/Inc/std_msgs/Bool.h:

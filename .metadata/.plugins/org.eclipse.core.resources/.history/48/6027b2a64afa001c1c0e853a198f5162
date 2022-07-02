@@ -28,8 +28,8 @@ void dir_r_cb(const std_msgs::Bool& msg);
 
 ros::Subscriber<std_msgs::UInt8> pwm_l_sub("pwm_l", &pwm_l_cb);
 ros::Subscriber<std_msgs::UInt8> pwm_r_sub("pwm_r", &pwm_r_cb);
-ros::Subscriber<std_msgs::Bool> dir_l_sub("dir_l", &dir_l_cb);
-ros::Subscriber<std_msgs::Bool> dir_r_sub("dir_r", &dir_r_cb);
+ros::Subscriber<std_msgs::Bool> dir_l_cb("dir_l", &dir_l_cb);
+ros::Subscriber<std_msgs::Bool> dir_r_cb("dir_r", &dir_r_cb);
 
 void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart){
   nh.getHardware()->flush();
@@ -71,12 +71,10 @@ void pwm_r_cb(const std_msgs::UInt8& msg){
 
 void dir_l_cb(const std_msgs::Bool& msg){
 	bool dir_l = msg.data;
-	if(dir_l) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
 }
 
 void dir_r_cb(const std_msgs::Bool& msg){
 	bool dir_r = msg.data;
-	if(dir_r) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
 }
