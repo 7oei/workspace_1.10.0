@@ -1,0 +1,10 @@
+00:41:57 **** Incremental Build of configuration Debug for project rosserial_test ****
+make -j8 all 
+arm-none-eabi-size   rosserial_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23964	    128	   4316	  28408	   6ef8	rosserial_test.elf
+Finished building: default.size.stdout
+ 
+
+00:41:57 Build Finished. 0 errors, 0 warnings. (took 115ms)
+

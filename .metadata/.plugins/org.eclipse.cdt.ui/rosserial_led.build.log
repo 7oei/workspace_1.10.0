@@ -1,0 +1,10 @@
+20:45:01 **** Incremental Build of configuration Debug for project rosserial_led ****
+make -j8 all 
+arm-none-eabi-size   rosserial_led.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27392	    128	   4500	  32020	   7d14	rosserial_led.elf
+Finished building: default.size.stdout
+ 
+
+20:45:01 Build Finished. 0 errors, 0 warnings. (took 122ms)
+

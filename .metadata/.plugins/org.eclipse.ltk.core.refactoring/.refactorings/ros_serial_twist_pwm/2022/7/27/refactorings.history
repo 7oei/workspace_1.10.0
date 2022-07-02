@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ros_serial_twist_pwm/ros_serial_pwm.ioc&apos; to &apos;ros_serial_twist_pwm.ioc&apos;" description="Rename resource &apos;ros_serial_pwm.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ros_serial_pwm.ioc" name="ros_serial_twist_pwm.ioc" stamp="1656793683352" updateReferences="true"/>
+</session>
