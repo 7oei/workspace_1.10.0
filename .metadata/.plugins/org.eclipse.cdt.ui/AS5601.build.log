@@ -1,0 +1,10 @@
+05:14:13 **** Incremental Build of configuration Debug for project AS5601 ****
+make -j8 all 
+arm-none-eabi-size   AS5601.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12416	    120	   1728	  14264	   37b8	AS5601.elf
+Finished building: default.size.stdout
+ 
+
+05:14:13 Build Finished. 0 errors, 0 warnings. (took 124ms)
+

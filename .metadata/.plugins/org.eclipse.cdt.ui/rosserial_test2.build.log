@@ -1,4 +1,4 @@
-01:48:56 **** Incremental Build of configuration Debug for project rosserial_test2 ****
+05:14:15 **** Build of configuration Debug for project rosserial_test2 ****
 make -j8 all 
 arm-none-eabi-size   rosserial_test2.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   rosserial_test2.elf
 Finished building: default.size.stdout
  
 
-01:48:56 Build Finished. 0 errors, 0 warnings. (took 118ms)
+05:14:15 Build Finished. 0 errors, 0 warnings. (took 123ms)
 

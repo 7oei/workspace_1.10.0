@@ -1,0 +1,10 @@
+12:27:47 **** Incremental Build of configuration Debug for project ESCtest ****
+make -j8 all 
+arm-none-eabi-size   ESCtest.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10572	     20	   1708	  12300	   300c	ESCtest.elf
+Finished building: default.size.stdout
+ 
+
+12:27:47 Build Finished. 0 errors, 0 warnings. (took 116ms)
+
