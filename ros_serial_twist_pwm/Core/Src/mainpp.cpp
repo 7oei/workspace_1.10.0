@@ -48,6 +48,10 @@ void setup(void)
   nh.subscribe(dir_r_sub);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
 }
 
 void loop(void)
@@ -58,25 +62,63 @@ void loop(void)
 
 //  HAL_Delay(1000);
 }
+int pwm_l_g = 0;
+int pwm_r_g = 0;
+int last_pwm_l_g = 0;
+int last_pwm_r_g = 0;
+bool last_dir_l_g = false;
+bool last_dir_r_g = false;
 
 void pwm_l_cb(const std_msgs::UInt8& msg){
-	unsigned char pwm_l = msg.data;
-	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, pwm_l);
+	unsigned char pwm_l = msg.data;//0~255
+	int duty_l = pwm_l * (909.0f / 255.0f) + 909.0f;
+	pwm_l_g = pwm_l;
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, duty_l);
 }
 
 void pwm_r_cb(const std_msgs::UInt8& msg){
 	unsigned char pwm_r = msg.data;
-	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, pwm_r);
+	int duty_r = pwm_r * (909.0f / 255.0f) + 909.0f;
+	pwm_r_g = pwm_r;
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, duty_r);
 }
 
 void dir_l_cb(const std_msgs::Bool& msg){
 	bool dir_l = msg.data;
-	if(dir_l) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+	if(!last_dir_l_g&&dir_l){
+		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 909.0f);
+		HAL_Delay(200);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_RESET);
+		HAL_Delay(200);
+	}
+	else if(last_dir_l_g&&!dir_l){
+		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, 909.0f);
+		HAL_Delay(200);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6, GPIO_PIN_RESET);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, GPIO_PIN_SET);
+		HAL_Delay(200);
+	}
+	last_dir_l_g = dir_l;
+	last_pwm_l_g = pwm_l_g;
 }
 
 void dir_r_cb(const std_msgs::Bool& msg){
 	bool dir_r = msg.data;
-	if(dir_r) HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
-	else HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	if(!last_dir_r_g&&dir_r){
+		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, 909.0f);
+		HAL_Delay(200);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_RESET);
+		HAL_Delay(200);
+	}
+	else if(last_dir_r_g&&!dir_r){
+		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, 909.0f);
+		HAL_Delay(200);
+		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+		HAL_Delay(200);
+	}
+	last_dir_r_g = dir_r;
+	last_pwm_r_g = pwm_r_g;
 }

@@ -10947,3 +10947,371 @@
 2022-12-19 13:37:34,641 [INFO] IPUIPlugin:79 - create IPUIPlugin
 2022-12-19 13:37:34,642 [INFO] ApiDbMcu:505 - Load IP Config File for PDM2PCM
 2022-12-19 13:37:34,697 [INFO] OpenFileManager:327 - Restore cursor
+2022-12-19 15:17:16,265 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-12-19 15:17:25,899 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 258904880 Bytes (759169024)
+2022-12-19 15:17:27,355 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 277779248 Bytes (759169024)
+2022-12-19 15:17:29,342 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 418810672 Bytes (759169024)
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-12-19 15:17:29,554 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-12-19 15:17:29,555 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.0/plugins/com.st.stm32cube.common.mx_6.6.0.202206222154//db/
+2022-12-19 15:17:29,805 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp_save
+2022-12-19 15:17:29,895 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp
+2022-12-19 15:17:29,925 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp_save
+2022-12-19 15:17:30,000 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp
+2022-12-19 15:17:30,137 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp_save
+2022-12-19 15:17:30,204 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp
+2022-12-19 15:17:30,206 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp_save
+2022-12-19 15:17:30,264 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp
+2022-12-19 15:17:30,268 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c_save
+2022-12-19 15:17:30,337 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c
+2022-12-19 15:17:30,339 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h_save
+2022-12-19 15:17:30,406 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h
+2022-12-19 15:17:30,409 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c_save
+2022-12-19 15:17:30,502 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c
+2022-12-19 15:17:30,503 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp_save
+2022-12-19 15:17:30,562 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp
+2022-12-19 15:17:30,564 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h_save
+2022-12-19 15:17:30,659 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h
+2022-12-19 15:17:30,674 [WARN] IPConfigManager:3348 - IP not found : TIM
+2022-12-19 15:17:30,674 [WARN] CodeGenerator:3567 - IP not found : null
+2022-12-19 15:17:30,676 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h_save
+2022-12-19 15:17:30,741 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h
+2022-12-19 15:17:30,742 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c_save
+2022-12-19 15:17:30,855 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c
+2022-12-19 15:17:31,539 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 68mS.
+2022-12-19 15:17:31,541 [INFO] ProjectBuilder:4115 - Project Generator version: 3.17.1
+2022-12-19 15:17:31,760 [INFO] ConfigFileManager:1394 - The Die is : DIE433
+2022-12-19 15:17:31,761 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-12-19 15:17:31,764 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-12-19 15:17:31,765 [INFO] ApiDbMcu:505 - Load IP Config File for LIBJPEG
+2022-12-19 15:17:31,769 [INFO] ApiDbMcu:505 - Load IP Config File for MBEDTLS
+2022-12-19 15:17:31,776 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2022-12-19 15:17:31,778 [INFO] ApiDbMcu:505 - Load IP Config File for USB_HOST
+2022-12-19 15:17:33,290 [INFO] ProjectBuilder:4283 - Time for Generating toolchain IDE Files: 1749mS.
+2022-12-19 15:17:33,291 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-12-19 15:17:33,298 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-12-19 15:34:53,040 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 497936528 Bytes (759169024)
+2022-12-19 15:34:54,189 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 516288656 Bytes (759169024)
+2022-12-19 15:34:55,696 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 593883280 Bytes (759169024)
+2022-12-19 15:34:55,919 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-12-19 15:34:55,920 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-12-19 15:34:55,920 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.0/plugins/com.st.stm32cube.common.mx_6.6.0.202206222154//db/
+2022-12-19 15:34:55,943 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-12-19 15:34:55,943 [INFO] Argument:302 - 	 sub Args: 
+2022-12-19 15:34:55,943 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2022-12-19 15:34:55,944 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : Initvalue: null
+2022-12-19 15:34:55,944 [INFO] Argument:302 - 	 sub Args: 
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-19 15:34:55,944 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-12-19 15:34:55,944 [INFO] Argument:310 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-19 15:34:55,944 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-19 15:34:55,944 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-19 15:34:55,944 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2022-12-19 15:34:55,945 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2022-12-19 15:34:55,945 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : Statevalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : Statevalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2022-12-19 15:34:55,946 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2022-12-19 15:34:55,947 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-12-19 15:34:55,947 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-12-19 15:34:55,947 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-12-19 15:34:55,947 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-12-19 15:34:55,948 [INFO] Argument:302 - 	 sub Args: 
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream6
+2022-12-19 15:34:55,948 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream6
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : Initvalue: null
+2022-12-19 15:34:55,948 [INFO] Argument:302 - 	 sub Args: 
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-19 15:34:55,948 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-12-19 15:34:55,948 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-19 15:34:55,948 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-19 15:34:55,948 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : Modevalue: DMA_NORMAL
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : Modevalue: DMA_NORMAL
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-19 15:34:55,949 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-19 15:34:55,949 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : Statevalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : Statevalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-12-19 15:34:55,950 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-12-19 15:34:55,951 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-12-19 15:34:56,117 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp_save
+2022-12-19 15:34:56,165 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp
+2022-12-19 15:34:56,177 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp_save
+2022-12-19 15:34:56,229 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp
+2022-12-19 15:34:56,355 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp_save
+2022-12-19 15:34:56,403 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp
+2022-12-19 15:34:56,404 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp_save
+2022-12-19 15:34:56,452 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp
+2022-12-19 15:34:56,456 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c_save
+2022-12-19 15:34:56,515 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c
+2022-12-19 15:34:56,516 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h_save
+2022-12-19 15:34:56,563 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h
+2022-12-19 15:34:56,565 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c_save
+2022-12-19 15:34:56,641 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c
+2022-12-19 15:34:56,642 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp_save
+2022-12-19 15:34:56,691 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp
+2022-12-19 15:34:56,693 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h_save
+2022-12-19 15:34:56,750 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h
+2022-12-19 15:34:56,764 [WARN] IPConfigManager:3348 - IP not found : TIM
+2022-12-19 15:34:56,764 [WARN] CodeGenerator:3567 - IP not found : null
+2022-12-19 15:34:56,766 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h_save
+2022-12-19 15:34:56,818 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h
+2022-12-19 15:34:56,819 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c_save
+2022-12-19 15:34:56,917 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c
+2022-12-19 15:34:57,444 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 18mS.
+2022-12-19 15:34:57,445 [INFO] ProjectBuilder:4115 - Project Generator version: 3.17.1
+2022-12-19 15:34:57,670 [INFO] ConfigFileManager:1394 - The Die is : DIE433
+2022-12-19 15:34:58,854 [INFO] ProjectBuilder:4283 - Time for Generating toolchain IDE Files: 1409mS.
+2022-12-19 15:34:58,854 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-12-19 15:34:58,861 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-12-22 18:33:38,208 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:33:38,209 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:33:38,210 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:24,894 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:24,895 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:24,895 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:41,765 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:41,766 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:51:41,766 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:53:32,265 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:53:32,266 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:53:32,266 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:54,432 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:54,432 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:54,432 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:55,953 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:55,955 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 18:55:55,956 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:44,783 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:44,784 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:44,784 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:48,607 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:48,608 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:00:48,608 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:35,172 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:35,173 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:35,174 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:38,198 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:38,198 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:38,198 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:59,629 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:59,629 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:02:59,633 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:03:01,259 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:03:01,260 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:03:01,260 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:24,950 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:24,951 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:24,952 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:31,356 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:31,357 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:04:31,357 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:06:58,174 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:06:58,175 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:06:58,176 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:07:00,824 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:07:00,824 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:07:00,824 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:13,088 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:13,088 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:13,090 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:14,855 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:14,856 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:23:14,856 [ERROR] ConfigurationRetriever:139 - IOException on connection: sw-center.st.com
+2022-12-22 19:41:23,386 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 385982560 Bytes (654311424)
+2022-12-22 19:41:24,761 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 222523440 Bytes (654311424)
+2022-12-22 19:41:25,820 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 308506672 Bytes (654311424)
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: DMA
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: TIM1_8
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-12-22 19:41:26,034 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-12-22 19:41:26,035 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-12-22 19:41:26,035 [INFO] CodeGenerator:690 - code generatio: config db path: /opt/st/stm32cubeide_1.10.0/plugins/com.st.stm32cube.common.mx_6.6.0.202206222154//db/
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-12-22 19:41:26,050 [INFO] Argument:302 - 	 sub Args: 
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream5
+2022-12-22 19:41:26,050 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream5
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : Initvalue: null
+2022-12-22 19:41:26,050 [INFO] Argument:302 - 	 sub Args: 
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-22 19:41:26,050 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-12-22 19:41:26,050 [INFO] Argument:310 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-22 19:41:26,050 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-22 19:41:26,050 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : Modevalue: DMA_CIRCULAR
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : Modevalue: DMA_CIRCULAR
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:300 - Argument : Statevalue: null
+2022-12-22 19:41:26,051 [INFO] Argument:310 - Argument : Statevalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-12-22 19:41:26,052 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-12-22 19:41:26,053 [INFO] Argument:300 - Argument : hdmavalue: null
+2022-12-22 19:41:26,053 [INFO] Argument:302 - 	 sub Args: 
+2022-12-22 19:41:26,053 [INFO] Argument:300 - Argument : Instancevalue: DMA1_Stream6
+2022-12-22 19:41:26,053 [INFO] Argument:310 - Argument : Instancevalue: DMA1_Stream6
+2022-12-22 19:41:26,053 [INFO] Argument:300 - Argument : Initvalue: null
+2022-12-22 19:41:26,053 [INFO] Argument:302 - 	 sub Args: 
+2022-12-22 19:41:26,053 [INFO] Argument:300 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-22 19:41:26,053 [INFO] Argument:310 - Argument : Channelvalue: DMA_CHANNEL_4
+2022-12-22 19:41:26,053 [INFO] Argument:300 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-12-22 19:41:26,053 [INFO] Argument:310 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : Modevalue: DMA_NORMAL
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : Modevalue: DMA_NORMAL
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : FIFOThresholdvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : FIFOThresholdvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : MemBurstvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : MemBurstvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : PeriphBurstvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : PeriphBurstvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:300 - Argument : Lockvalue: null
+2022-12-22 19:41:26,054 [INFO] Argument:310 - Argument : Lockvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : Statevalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : Statevalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : Parentvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : Parentvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : XferCpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : XferCpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : XferHalfCpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : XferM1CpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : XferM1CpltCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : XferErrorCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : XferErrorCallbackvalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:300 - Argument : ErrorCodevalue: null
+2022-12-22 19:41:26,055 [INFO] Argument:310 - Argument : ErrorCodevalue: null
+2022-12-22 19:41:26,235 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp_save
+2022-12-22 19:41:26,283 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/license.tmp
+2022-12-22 19:41:26,294 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp_save
+2022-12-22 19:41:26,342 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/gpio.tmp
+2022-12-22 19:41:26,457 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp_save
+2022-12-22 19:41:26,507 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma.tmp
+2022-12-22 19:41:26,508 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp_save
+2022-12-22 19:41:26,557 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/dma_GV.tmp
+2022-12-22 19:41:26,561 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c_save
+2022-12-22 19:41:26,610 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_it.c
+2022-12-22 19:41:26,611 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h_save
+2022-12-22 19:41:26,658 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_it.h
+2022-12-22 19:41:26,660 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c_save
+2022-12-22 19:41:26,728 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/stm32f4xx_hal_msp.c
+2022-12-22 19:41:26,729 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp_save
+2022-12-22 19:41:26,774 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/MXTmpFiles/system.tmp
+2022-12-22 19:41:26,776 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h_save
+2022-12-22 19:41:26,829 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/stm32f4xx_hal_conf.h
+2022-12-22 19:41:26,841 [WARN] IPConfigManager:3348 - IP not found : TIM
+2022-12-22 19:41:26,841 [WARN] CodeGenerator:3567 - IP not found : null
+2022-12-22 19:41:26,842 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h_save
+2022-12-22 19:41:26,889 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Inc/main.h
+2022-12-22 19:41:26,890 [INFO] CodeEngine:245 - oldGeneratedFile, /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c_save
+2022-12-22 19:41:27,030 [INFO] CodeEngine:269 - Generated code: /home/adachi/STM32CubeIDE/workspace_1.10.0/ros_serial_twist_pwm/Core/Src/main.c
+2022-12-22 19:41:27,508 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 22mS.
+2022-12-22 19:41:27,509 [INFO] ProjectBuilder:4115 - Project Generator version: 3.17.1
+2022-12-22 19:41:27,746 [INFO] ConfigFileManager:1394 - The Die is : DIE433
+2022-12-22 19:41:28,996 [INFO] ProjectBuilder:4283 - Time for Generating toolchain IDE Files: 1487mS.
+2022-12-22 19:41:28,997 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-12-22 19:41:29,001 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.

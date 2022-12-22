@@ -8,6 +8,7 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="TIM_CHANNEL_1"/>
 		<list key="findhistory">
+			<item value="l"/>
 			<item value="TIM_CHANNEL_1"/>
 		</list>
 		<list key="replacehistory">
