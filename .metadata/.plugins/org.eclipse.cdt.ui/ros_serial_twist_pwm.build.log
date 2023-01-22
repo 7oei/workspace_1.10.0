@@ -1,4 +1,4 @@
-19:45:57 **** Incremental Build of configuration Debug for project ros_serial_twist_pwm ****
+04:14:48 **** Build of configuration Debug for project ros_serial_twist_pwm ****
 make -j8 all 
 arm-none-eabi-size   ros_serial_twist_pwm.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   ros_serial_twist_pwm.elf
 Finished building: default.size.stdout
  
 
-19:45:57 Build Finished. 0 errors, 0 warnings. (took 119ms)
+04:14:48 Build Finished. 0 errors, 0 warnings. (took 122ms)
 

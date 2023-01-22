@@ -1,0 +1,10 @@
+04:06:24 **** Incremental Build of configuration Debug for project crawler_controller ****
+make -j8 all 
+arm-none-eabi-size   crawler_controller.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10572	     20	   1708	  12300	   300c	crawler_controller.elf
+Finished building: default.size.stdout
+ 
+
+04:06:24 Build Finished. 0 errors, 0 warnings. (took 123ms)
+
